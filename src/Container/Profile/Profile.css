@@ -1,0 +1,253 @@
+.profile{
+    margin-top: 100px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+}
+.profile-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.profile-details-name{
+    font-size: 25px;
+    font-family: 'Poppins SemiBold';
+}
+.profile-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+.profile-details-role h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+.primary-text{
+    color: white;
+}
+.highlighted-text{
+    color: crimson;
+}
+.profile-role-tagline{
+    font-size: 20px;
+    margin: 5px 0 0 0;
+    font-family: 'Poppins Light';
+}
+.profile-options .highlighted-btn{
+    margin: 0 0 0 28px;
+}
+.profile-options .highlighted-btn:hover{
+    margin: 0 0 0 28px;
+    background-color: #fff;
+    color: #111;
+}
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px white;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 0 0px 0 100px;
+}
+.profile-picture-bg{
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/Home/profile2.png');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+.profile-details .media .media-icon i{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.profile-picture-bg:hover{
+    transform: calc(1.07);
+    transition: 1s ease-out;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1110px){
+    .profile-picture{
+        margin: 0 0px 0 80px;
+    }
+    .profile-details-name{
+        font-size: 20px;
+    }
+    .profile-details-role .primary-text{
+        font-size: 12px;
+    }
+    .profile-options .btn{
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+@media screen and (max-width: 910px){
+    .profile-picture{
+        width: 220px;
+        height: 220px;
+        margin: 0 0 0 4px;
+    }
+}
+@media screen and (max-width: 810px){
+    .profile-picture{
+        margin: 0 !important;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .profile-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-details{
+        margin: 25px 0 0;
+    }
+    .profile-options .highlighted-btn{
+        margin: 0 !important;
+    }
+    .profile-options, .profile-details-role{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 375px){
+    .profile-picture{
+        width: 260px;
+        height: 260px;
+        margin-top: -90px;
+    }
+    .profile-details{
+        width: 90%;
+    }
+}
+.servce-cont{
+    display: flex;
+    margin: 60px;
+}
+.titel{
+    font-size: 35px;
+    color: crimson;
+    text-align: center;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#shadow{
+    margin: 25px;
+    width: 390px;
+    height: 230px;
+    color: #fff;
+    background-color: #111;
+    text-align: center;
+    cursor: pointer;
+}
+#shadow:hover{
+    background-color: crimson;
+    color: #fff;
+}
+.text{
+    font-size: 26px;
+    color: coral;
+    margin: 15px;
+}
+#icons{
+    font-size: 39px;
+    color: rgb(220, 20, 193);
+    margin: 15px;
+}
+.project-cont{
+    display: flex;
+    margin: 60px;
+}
+#shadowp{
+    margin: 25px;
+    width: 390px;
+    height: 400px;
+    color: #fff;
+    background-color: #111;
+    text-align: center;
+    cursor: pointer;
+}
+#shadowp:hover{
+    background-color: crimson;
+    color: #fff;
+}
+.proj-img{
+    width: 250px;
+    height: 170px;
+    border-radius: 10%;
+}
+.contact-containre{
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+.name{
+    height: 46px;
+    border-radius: 5%;
+}
+.email{
+    height: 46px;
+    border-radius: 5%;
+}
+.message{
+    height: 130px;
+    border-radius: 5%;
+}
+.about-cont{
+    display: flex;
+    /* margin: 60px; */
+}
+#about{
+    margin: 25px;
+    width: 390px;
+    height: 300px;
+    color: #fff;
+    background-color: #111;
+}
+#aboutso{
+    margin: 25px;
+    height: 300px;
+    color: #fff;
+    background-color: #111;
+    text-align: center;
+}
+.foo-cont{
+    
+    margin: 60px;
+}
+#aboutne{
+    margin: 25px;
+    width: 1020px;
+    margin-left: 90px;
+    height: 290px;
+    text-align: center;
+}
+
+/* social media icons style */
+
+.icons-social{
+    font-size: 50px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    margin: 40px;
+}
+.copy{
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: crimson;
+}
